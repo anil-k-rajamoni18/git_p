@@ -22,3 +22,23 @@ git push origin master
 git push --all :-> push all the branches
 
 git pull <url> 
+
+git remote add <url>
+
+git stash show
+
+git stash show -p
+
+git stash apply <stash_id>
+
+git stash list
+
+git stash pop : it will delete the stash_id after re-applying
+
+git stash drop
+
+git stash clear
+
+git stash branch <Branch_Name>
+
+
